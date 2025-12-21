@@ -30,6 +30,6 @@ for i in range(0,leng):
     with open(f"{i}.mp3", "wb") as f:
         f.write(audio)
 
-print("Saved test.mp3")
+input("Press Enter to exit...")
 
 
