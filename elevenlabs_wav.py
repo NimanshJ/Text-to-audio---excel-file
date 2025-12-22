@@ -27,7 +27,7 @@ for i in range(0,leng):
         )
     )
 
-    with open(f"sample.wav", "wb") as f:
+    with open(f"{i}.wav", "wb") as f:
         f.write(audio)
 
 print("Audio file saved")
