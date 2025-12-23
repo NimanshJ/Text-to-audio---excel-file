@@ -37,7 +37,7 @@ for i in range(leng):
     )
 
     mp3_file = f"{i}.mp3"
-    wav_file = f"95.wav"
+    wav_file = f"{i}.wav"
 
     with open(mp3_file, "wb") as f:
         f.write(audio)
