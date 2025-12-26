@@ -22,7 +22,8 @@ for i in range(0,leng):
                 "stability": float(os.getenv("STABILITY")),
                 "similarity_boost": float(os.getenv("SIMILARITY")),
                 "style": float(os.getenv("STYLE")),
-                "use_speaker_boost": True
+                "use_speaker_boost": True,
+                "output_format": "wav"
             }
         )
     )
